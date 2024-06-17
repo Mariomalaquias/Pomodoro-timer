@@ -1,0 +1,74 @@
+
+
+
+
+.foco {
+    height: 100vh;
+    background: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
+}
+.descansoCurto {
+    height: 100vh;
+    background: linear-gradient(180deg, #04ff2e 0%, #041832 48.44%, #01080E 100%);
+}
+
+.descansoLongo {
+    height: 100vh;
+    background: linear-gradient(180deg, #e6d92b 0%, #041832 48.44%, #01080E 100%);
+}
+.botoes {
+    background-color: #000f96;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 7px 40px ;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botoes:hover {
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+
+.ul-bt {
+    display: flex;
+    gap: 10px;
+}
+
+
+.ativar {
+    background-color: rgb(82, 145, 0);
+    border: 2px solid rgb(0, 99, 5);
+    
+    
+
+}
+
+#timer {
+    color: aliceblue;
+}
+#comecarBt {
+    background-color: #3f834a;
+    padding: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+   
+    
+}
+
+#comecarBt span {
+    margin-left: 10px;
+}
+
+.primeira-secao {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
